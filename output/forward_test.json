@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-24T14:50:02+00:00",
+ "updated": "2026-11-24T23:52:26+00:00",
  "stats": {
-  "n": 1,
+  "n": 2,
   "status": "UNVERIFIABLE",
-  "wins": 1,
+  "wins": 2,
   "losses": 0,
   "win_rate": 1.0,
-  "avg_r": 1.274,
-  "std_r": 0.0,
-  "total_r": 1.274,
+  "avg_r": 1.05975,
+  "std_r": 0.3029952557384356,
+  "total_r": 2.1195,
   "profit_factor": null,
-  "sqn": null,
-  "ci_low": null,
-  "ci_high": null,
+  "sqn": 4.9463243873979,
+  "ci_low": 0.63982,
+  "ci_high": 1.4796799999999999,
   "max_drawdown_r": 0.0,
-  "weeks": 0.0,
+  "weeks": 0.6865608465608466,
   "best_r": 1.274,
-  "worst_r": 1.274,
+  "worst_r": 0.8455,
   "readiness": {
    "trades": false,
    "weeks": false,
-   "ci_lower_positive": false,
+   "ci_lower_positive": true,
    "profit_factor": false
   },
   "targets": {
@@ -36,6 +36,13 @@
    "avg_r": 1.274,
    "profit_factor": null,
    "total_r": 1.274
+  },
+  "deviation_reclaim": {
+   "n": 1,
+   "win_rate": 1.0,
+   "avg_r": 0.8455,
+   "profit_factor": null,
+   "total_r": 0.8455
   }
  },
  "by_symbol": {
@@ -45,11 +52,18 @@
    "avg_r": 1.274,
    "profit_factor": null,
    "total_r": 1.274
+  },
+  "SOL/USDT": {
+   "n": 1,
+   "win_rate": 1.0,
+   "avg_r": 0.8455,
+   "profit_factor": null,
+   "total_r": 0.8455
   }
  },
  "counts": {
-  "CLOSED": 1,
-  "OPEN": 3,
+  "CLOSED": 2,
+  "OPEN": 2,
   "WAITING": 0,
   "CANCELLED": 11
  },
@@ -297,10 +311,10 @@
    "score": 6.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.1429,
+   "r": 2.0083,
    "fill_time": "2026-11-24 14:48:09+00:00",
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai, sisa berjalan"
   },
   {
    "signal_id": "b3b7bb84b0ea",
@@ -316,10 +330,10 @@
    "score": 7.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.1271,
+   "r": 1.5381,
    "fill_time": "2026-11-24 14:48:09+00:00",
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai, sisa berjalan"
   },
   {
    "signal_id": "525ed5911ecc",
@@ -333,11 +347,11 @@
    "tp1": 68.70678564950677,
    "tp2": 67.55357129901354,
    "score": 8.0,
-   "status": "OPEN",
-   "outcome": "",
-   "r": -0.0909,
+   "status": "CLOSED",
+   "outcome": "TP1_BE",
+   "r": 0.8455,
    "fill_time": "2026-11-24 14:48:09+00:00",
-   "exit_time": null,
+   "exit_time": "2026-11-24 17:30:00+00:00",
    "reason": ""
   }
  ]
