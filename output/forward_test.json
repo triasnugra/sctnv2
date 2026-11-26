@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T19:09:53+00:00",
+ "updated": "2026-11-26T02:47:36+00:00",
  "stats": {
-  "n": 7,
+  "n": 8,
   "status": "UNVERIFIABLE",
   "wins": 4,
-  "losses": 3,
-  "win_rate": 0.5714285714285714,
-  "avg_r": 0.5097571428571428,
-  "std_r": 1.653008943167119,
-  "total_r": 3.5683,
-  "profit_factor": 2.0407151398489223,
-  "sqn": 0.8159003825198742,
-  "ci_low": -0.7148090191469088,
-  "ci_high": 1.7343233048611943,
-  "max_drawdown_r": 3.4287,
-  "weeks": 0.7903091931216931,
+  "losses": 4,
+  "win_rate": 0.5,
+  "avg_r": 0.307175,
+  "std_r": 1.6341378143928287,
+  "total_r": 2.4574,
+  "profit_factor": 1.541325226892237,
+  "sqn": 0.5316700307597532,
+  "ci_low": -0.8252247313515222,
+  "ci_high": 1.4395747313515221,
+  "max_drawdown_r": 4.5396,
+  "weeks": 0.8551421957671957,
   "best_r": 2.6148,
   "worst_r": -1.1429,
   "readiness": {
@@ -38,11 +38,11 @@
    "total_r": 3.8888
   },
   "deviation_reclaim": {
-   "n": 5,
-   "win_rate": 0.4,
-   "avg_r": -0.0641,
-   "profit_factor": 0.9065243386706332,
-   "total_r": -0.3205
+   "n": 6,
+   "win_rate": 0.3333333333333333,
+   "avg_r": -0.23856666666666668,
+   "profit_factor": 0.6846858754075249,
+   "total_r": -1.4314
   }
  },
  "by_symbol": {
@@ -54,11 +54,11 @@
    "total_r": 1.274
   },
   "SOL/USDT": {
-   "n": 1,
-   "win_rate": 1.0,
-   "avg_r": 0.8455,
-   "profit_factor": null,
-   "total_r": 0.8455
+   "n": 2,
+   "win_rate": 0.5,
+   "avg_r": -0.13269999999999998,
+   "profit_factor": 0.7610946079755154,
+   "total_r": -0.26539999999999997
   },
   "BTC/USDT": {
    "n": 1,
@@ -97,7 +97,7 @@
   }
  },
  "counts": {
-  "CLOSED": 7,
+  "CLOSED": 8,
   "OPEN": 2,
   "WAITING": 0,
   "CANCELLED": 13
@@ -496,11 +496,11 @@
    "tp1": 68.84637051100606,
    "tp2": 67.9027410220121,
    "score": 7.0,
-   "status": "OPEN",
-   "outcome": "",
-   "r": -0.1109,
+   "status": "CLOSED",
+   "outcome": "LOSS",
+   "r": -1.1109,
    "fill_time": "2026-11-25 19:07:27+00:00",
-   "exit_time": null,
+   "exit_time": "2026-11-25 19:15:00+00:00",
    "reason": ""
   },
   {
@@ -519,6 +519,25 @@
    "outcome": "",
    "r": -0.1429,
    "fill_time": "2026-11-25 19:07:27+00:00",
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "ce4f6b5394b1",
+   "asof": "2026-11-26T02:44:51+00:00",
+   "symbol": "TRX/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 0.3039,
+   "stop": 0.3060273,
+   "tp1": 0.30070905,
+   "tp2": 0.2975181,
+   "score": 9.0,
+   "status": "OPEN",
+   "outcome": "",
+   "r": -0.1429,
+   "fill_time": "2026-11-26 02:44:51+00:00",
    "exit_time": null,
    "reason": ""
   }
