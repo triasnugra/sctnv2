@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T12:15:11+00:00",
+ "updated": "2026-11-26T22:16:52+00:00",
  "stats": {
-  "n": 8,
+  "n": 9,
   "status": "UNVERIFIABLE",
-  "wins": 4,
+  "wins": 5,
   "losses": 4,
-  "win_rate": 0.5,
-  "avg_r": 0.307175,
-  "std_r": 1.6341378143928287,
-  "total_r": 2.4574,
-  "profit_factor": 1.541325226892237,
-  "sqn": 0.5316700307597532,
-  "ci_low": -0.8252247313515222,
-  "ci_high": 1.4395747313515221,
+  "win_rate": 0.5555555555555556,
+  "avg_r": 0.5463777777777777,
+  "std_r": 1.6886584370275843,
+  "total_r": 4.9174,
+  "profit_factor": 2.0832231914706143,
+  "sqn": 0.9706719235765484,
+  "ci_low": -0.5568790677469105,
+  "ci_high": 1.649634623302466,
   "max_drawdown_r": 4.5396,
-  "weeks": 0.8551421957671957,
+  "weeks": 0.9569014550264551,
   "best_r": 2.6148,
   "worst_r": -1.1429,
   "readiness": {
@@ -38,11 +38,11 @@
    "total_r": 3.8888
   },
   "deviation_reclaim": {
-   "n": 6,
-   "win_rate": 0.3333333333333333,
-   "avg_r": -0.23856666666666668,
-   "profit_factor": 0.6846858754075249,
-   "total_r": -1.4314
+   "n": 7,
+   "win_rate": 0.42857142857142855,
+   "avg_r": 0.14694285714285713,
+   "profit_factor": 1.226583839985902,
+   "total_r": 1.0286
   }
  },
  "by_symbol": {
@@ -94,10 +94,17 @@
    "avg_r": -1.1429,
    "profit_factor": 0.0,
    "total_r": -1.1429
+  },
+  "HYPE/USDT": {
+   "n": 1,
+   "win_rate": 1.0,
+   "avg_r": 2.46,
+   "profit_factor": null,
+   "total_r": 2.46
   }
  },
  "counts": {
-  "CLOSED": 8,
+  "CLOSED": 9,
   "OPEN": 3,
   "WAITING": 1,
   "CANCELLED": 13
@@ -517,7 +524,7 @@
    "score": 7.0,
    "status": "OPEN",
    "outcome": "",
-   "r": 0.1389,
+   "r": -0.2837,
    "fill_time": "2026-11-25 19:07:27+00:00",
    "exit_time": null,
    "reason": ""
@@ -536,7 +543,7 @@
    "score": 9.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.0018,
+   "r": -0.4249,
    "fill_time": "2026-11-26 02:44:51+00:00",
    "exit_time": null,
    "reason": ""
@@ -555,7 +562,7 @@
    "score": 9.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.1429,
+   "r": -0.6136,
    "fill_time": "2026-11-26 12:13:11+00:00",
    "exit_time": null,
    "reason": ""
@@ -572,6 +579,25 @@
    "tp1": 60.341,
    "tp2": 59.99801337747771,
    "score": 7.0,
+   "status": "CLOSED",
+   "outcome": "TP2",
+   "r": 2.46,
+   "fill_time": "2026-11-26 14:00:00+00:00",
+   "exit_time": "2026-11-26 15:15:00+00:00",
+   "reason": ""
+  },
+  {
+   "signal_id": "6f94fe5a21cc",
+   "asof": "2026-11-26T22:14:40+00:00",
+   "symbol": "AAVE/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 95.56,
+   "stop": 96.22892,
+   "tp1": 92.28,
+   "tp2": 91.94554,
+   "score": 9.0,
    "status": "WAITING",
    "outcome": "",
    "r": null,
