@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:47:36+00:00",
+ "updated": "2026-11-26T12:15:11+00:00",
  "stats": {
   "n": 8,
   "status": "UNVERIFIABLE",
@@ -98,8 +98,8 @@
  },
  "counts": {
   "CLOSED": 8,
-  "OPEN": 2,
-  "WAITING": 0,
+  "OPEN": 3,
+  "WAITING": 1,
   "CANCELLED": 13
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
@@ -517,7 +517,7 @@
    "score": 7.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.1429,
+   "r": 0.1389,
    "fill_time": "2026-11-25 19:07:27+00:00",
    "exit_time": null,
    "reason": ""
@@ -536,8 +536,46 @@
    "score": 9.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.1429,
+   "r": -0.0018,
    "fill_time": "2026-11-26 02:44:51+00:00",
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "7dbef4de5eec",
+   "asof": "2026-11-26T12:13:11+00:00",
+   "symbol": "TRX/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 0.3035,
+   "stop": 0.30562449999999997,
+   "tp1": 0.30031325,
+   "tp2": 0.2971265,
+   "score": 9.0,
+   "status": "OPEN",
+   "outcome": "",
+   "r": -0.1429,
+   "fill_time": "2026-11-26 12:13:11+00:00",
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "794d86b802b0",
+   "asof": "2026-11-26T12:13:11+00:00",
+   "symbol": "HYPE/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 61.483,
+   "stop": 61.97799554084076,
+   "tp1": 60.341,
+   "tp2": 59.99801337747771,
+   "score": 7.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
    "exit_time": null,
    "reason": ""
   }
