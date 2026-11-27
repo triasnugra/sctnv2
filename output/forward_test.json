@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-27T14:57:01+00:00",
+ "updated": "2026-11-27T23:24:27+00:00",
  "stats": {
-  "n": 13,
+  "n": 14,
   "status": "UNVERIFIABLE",
   "wins": 5,
-  "losses": 8,
-  "win_rate": 0.38461538461538464,
-  "avg_r": 0.026599999999999974,
-  "std_r": 1.5998692649713602,
-  "total_r": 0.34579999999999966,
-  "profit_factor": 1.0379532882606024,
-  "sqn": 0.059947188202942876,
-  "ci_low": -0.84309883931004,
-  "ci_high": 0.89629883931004,
-  "max_drawdown_r": 6.8254,
-  "weeks": 1.0165724206349207,
+  "losses": 9,
+  "win_rate": 0.35714285714285715,
+  "avg_r": -0.04831428571428574,
+  "std_r": 1.5624534778832457,
+  "total_r": -0.6764000000000003,
+  "profit_factor": 0.9332504391418478,
+  "sqn": -0.11569976744169812,
+  "ci_low": -0.866777469296033,
+  "ci_high": 0.7701488978674615,
+  "max_drawdown_r": 7.6734,
+  "weeks": 1.115734126984127,
   "best_r": 2.6148,
   "worst_r": -1.1429,
   "readiness": {
@@ -38,11 +38,11 @@
    "total_r": 2.7459
   },
   "deviation_reclaim": {
-   "n": 10,
-   "win_rate": 0.3,
-   "avg_r": -0.24001,
-   "profit_factor": 0.6987939711105254,
-   "total_r": -2.4001
+   "n": 11,
+   "win_rate": 0.2727272727272727,
+   "avg_r": -0.3111181818181818,
+   "profit_factor": 0.6193426394527556,
+   "total_r": -3.4223
   }
  },
  "by_symbol": {
@@ -115,13 +115,20 @@
    "avg_r": -1.1429,
    "profit_factor": 0.0,
    "total_r": -1.1429
+  },
+  "SNDKB/USDT": {
+   "n": 1,
+   "win_rate": 0.0,
+   "avg_r": -1.0222,
+   "profit_factor": 0.0,
+   "total_r": -1.0222
   }
  },
  "counts": {
-  "CLOSED": 13,
-  "OPEN": 1,
-  "WAITING": 2,
-  "CANCELLED": 13
+  "CLOSED": 14,
+  "OPEN": 0,
+  "WAITING": 1,
+  "CANCELLED": 15
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
  "trades": [
@@ -631,12 +638,12 @@
    "tp1": 59800.0,
    "tp2": 59117.894,
    "score": 6.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai sebelum entry terisi"
   },
   {
    "signal_id": "bc43644882a3",
@@ -650,12 +657,12 @@
    "tp1": 1676.66,
    "tp2": 1660.8735,
    "score": 6.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai sebelum entry terisi"
   },
   {
    "signal_id": "989dca4c1abc",
@@ -669,10 +676,29 @@
    "tp1": 73.61451368483931,
    "tp2": 68.27902736967862,
    "score": 7.0,
-   "status": "OPEN",
-   "outcome": "",
-   "r": -0.0222,
+   "status": "CLOSED",
+   "outcome": "LOSS",
+   "r": -1.0222,
    "fill_time": "2026-11-27 14:54:13+00:00",
+   "exit_time": "2026-11-27 15:30:00+00:00",
+   "reason": ""
+  },
+  {
+   "signal_id": "2e9ebcd85343",
+   "asof": "2026-11-27T23:21:50+00:00",
+   "symbol": "ETH/USDT",
+   "direction": "SHORT",
+   "trigger": "breakout_retest",
+   "tf": "1h",
+   "entry": 1696.5,
+   "stop": 1708.3755,
+   "tp1": 1634.03,
+   "tp2": 1628.09225,
+   "score": 7.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
    "exit_time": null,
    "reason": ""
   }
